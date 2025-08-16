@@ -29,8 +29,7 @@ sql:
 
 
 ##Database
-Run the following SQL (or import `sql/database_setup.sql`):
-
+Run the following SQL 
 CREATE DATABASE school;
 USE school;
 
