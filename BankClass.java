@@ -5,8 +5,8 @@ public class BankClass {
 	public static void main(String[] args) throws Exception{
 		
 		String url="jdbc:mysql://localhost:3306/bank";
-		String uname="root";
-		String pass="dspn@123";
+		String uname="YOUR_USERNAME";
+		String pass="YOUR-PASSWORD";
 		
 		Class.forName("com.mysql.cj.jdbc.Driver");
 		Connection con=DriverManager.getConnection(url,uname,pass);
@@ -132,3 +132,4 @@ public class BankClass {
 	}
 
 }
+
